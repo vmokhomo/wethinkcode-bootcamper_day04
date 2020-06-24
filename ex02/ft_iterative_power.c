@@ -1,14 +1,15 @@
-#include <unistd.h>
-#include <stdio.h>
-
-void ft_putchar(char c)
-{
-	write(1, &c, 1);
-}
+/*	#include <unistd.h>
+**	#include <stdio.h>
+**	
+**	void ft_putchar(char c)
+**	{
+**		write(1, &c, 1);
+**	}
+*/
 
 int ft_iterative_power(int nb, int power)
 {
-/*	int total;
+	int total;
 
 	total = 1;
 	if(nb == 0 || power == 0)
@@ -32,11 +33,12 @@ int ft_iterative_power(int nb, int power)
 	}
 	return total;
 }
-int main()
-{
-	int n=2;
-	int m=2;
-	printf("%d", ft_iterative_power(n, m));
-	
-	return(0);
-}
+/*	int main()
+**	{
+**		int n=2;
+**		int m=2;
+**		printf("%d", ft_iterative_power(n, m));
+**	
+**		return(0);
+**	}
+*/
